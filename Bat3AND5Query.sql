@@ -1,3 +1,10 @@
+/*
+Summary:
+This SQL query is a part of series of queries designed to determine the performance of batsmen in cricket, based on their lineup position. 
+This particular query targets batsmen 3 and 5 from both innings, to determine the percentage of times both 
+batsmen will exceed 20 runs in the same innings. Data was compiled in Microsoft Excel and queried using SQL.
+*/
+
 --1. Performance of 3 & 5 batsmen from innings 1
 
 IF OBJECT_ID('tempdb..#InningsOne3AND5Patterns', 'U') IS NOT NULL
